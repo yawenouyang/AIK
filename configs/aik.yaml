@@ -1,0 +1,7 @@
+l2: 1  # \lambda_2 in equation 7
+l3: 1  # \lambda_3 in equation 7
+method: 'aik'
+ood_method: 'mah'
+margin: 300
+use_mmc: 0  # for Section 5
+

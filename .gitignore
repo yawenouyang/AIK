@@ -1,0 +1,6 @@
+log
+params
+*.pyc
+.vscode
+__pycache__
+*.npy

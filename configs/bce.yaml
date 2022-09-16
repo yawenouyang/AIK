@@ -1,0 +1,3 @@
+method: 'bce'
+ood_method: 'logit'  # logit or energy or lof
+l3: 0  # \lambda_3 in equation 7 (for Section 5.6)
