@@ -1,6 +1,5 @@
-log
-params
 *.pyc
 .vscode
 __pycache__
 *.npy
+.DS_Store
