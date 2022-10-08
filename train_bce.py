@@ -61,7 +61,7 @@ class TrainBCE(Train):
     @torch.no_grad()
     def evaluate(self, loader):
         if self.args.ood_method == 'lof':
-            all_is_ood, score = lof(self.train_loader, self.test_loader, self.mdl)
+            all_is_ood, score = lof(self.train_loader, loader, self.mdl)
         else:  # for energy, logit
             all_intent_num_pred = []
             all_logit = []
